@@ -34,9 +34,11 @@ public class test {
                 }
             }
         }
-        for (int i = 0; i < sparsearr.length; i++) {
-            System.out.println(sparsearr[i][0]+" "+sparsearr[i][1]+" "+sparsearr[i][2]);
-
+        for (int[] row : sparsearr)  {
+            for(int date : row) {
+                System.out.print(date + "\t");
+            }
+            System.out.println();
         }
         int[][] chessArr2 = new int[sparsearr[0][0]][sparsearr[0][1]];
         for (int i = 1; i < sparsearr.length ; i++) {
