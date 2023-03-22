@@ -1,5 +1,5 @@
 
-public class test {
+public class sparseArr{
     public static void main(String[] args) {
         int[][] chessArr1= new int[11][11];
         chessArr1[1][2] = 1;
