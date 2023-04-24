@@ -45,7 +45,7 @@ public class SmallChangeOOP {
             }
 
         }while(loop);
-
+        System.out.println("-------退出了零钱通项目-------");
     }
 
     public void details(){
@@ -89,6 +89,6 @@ public class SmallChangeOOP {
             loop = false;
         }
 
-        System.out.println("-------退出了零钱通项目-------");
+       
     }
 }
